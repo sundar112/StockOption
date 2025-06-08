@@ -20,7 +20,7 @@ const WatchList = () => {
 
 			<ul className='list'>
 				{watchlist.map((stock, index) => {
-					return <p>{stock.name}</p>;
+					<watchlistItem stock={stock} ksy={index} />;
 				})}
 			</ul>
 		</div>
