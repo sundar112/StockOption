@@ -19,6 +19,7 @@ const Dashboard = () => {
 			<GeneralContextProvider>
 				<WatchList />
 			</GeneralContextProvider>
+			<p>test</p>
 			<div className='content'>
 				<Routes>
 					<Route exact path='/' element={<Summary />} />
